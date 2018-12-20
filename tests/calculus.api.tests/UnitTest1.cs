@@ -10,5 +10,11 @@ namespace calculus.api.tests
         {
 
         }
+
+        [Fact]
+        public void FailThis()
+        {
+          Assert.True(1 == 2);
+        }
     }
 }
