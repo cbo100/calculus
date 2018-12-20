@@ -25,3 +25,7 @@ steps:
   inputs:
     command: 'test'
     projects: 'tests/**/*.csproj'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'pack'
+    projects: 'src/**/*.csproj'    
